@@ -13,4 +13,6 @@ python 2.6+ 以及需要MySQLdb库
 Usage: 
 python SendPayload.py  -h [host] -u [user] -p [password] [ -P port]
 
+目前版本在运行时还偶尔会出现一些问题，会再以后逐步改善健壮性。
+
 
