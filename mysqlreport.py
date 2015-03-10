@@ -389,7 +389,7 @@ class MySQLGlobal(threading.Thread):
 
 
         #Tables
-        table_cache = self._global_variables['table_cache']
+        table_cache = self._global_variables['table_open_cache']
         table_cache_ratio = float(current_status_value['Open_tables'])/long(table_cache)*100.0
         status_items['table_cache'] = table_cache
         status_items['table_cache_ratio'] = table_cache_ratio
